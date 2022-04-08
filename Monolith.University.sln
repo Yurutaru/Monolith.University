@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monolith.University.Domain", "src\Monolith.University.Domain\Monolith.University.Domain.csproj", "{7967FF88-D244-425E-AED6-E5F241FF1D8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monolith.University.Core", "src\Monolith.University.Core\Monolith.University.Core.csproj", "{0CCD5B13-0ED2-426C-B5E2-89E4AB3A3C20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monolith.University.Infrastructure.Persistence", "src\Monolith.University.Infrastructure.Persistence\Monolith.University.Infrastructure.Persistence.csproj", "{FFA597AE-B5D2-4435-B667-8CEF1E51C121}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monolith.University.API", "src\Monolith.University.API\Monolith.University.API.csproj", "{4E252648-5106-4AAB-AA71-6D12D75B7470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.University.Infrastructure.Jobs", "src\Monolith.University.Infrastructure.Jobs\Monolith.University.Infrastructure.Jobs.csproj", "{20A90962-D09E-47E8-B016-7AC277808CDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7967FF88-D244-425E-AED6-E5F241FF1D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7967FF88-D244-425E-AED6-E5F241FF1D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7967FF88-D244-425E-AED6-E5F241FF1D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7967FF88-D244-425E-AED6-E5F241FF1D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CCD5B13-0ED2-426C-B5E2-89E4AB3A3C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCD5B13-0ED2-426C-B5E2-89E4AB3A3C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCD5B13-0ED2-426C-B5E2-89E4AB3A3C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCD5B13-0ED2-426C-B5E2-89E4AB3A3C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA597AE-B5D2-4435-B667-8CEF1E51C121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA597AE-B5D2-4435-B667-8CEF1E51C121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA597AE-B5D2-4435-B667-8CEF1E51C121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA597AE-B5D2-4435-B667-8CEF1E51C121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E252648-5106-4AAB-AA71-6D12D75B7470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E252648-5106-4AAB-AA71-6D12D75B7470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E252648-5106-4AAB-AA71-6D12D75B7470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E252648-5106-4AAB-AA71-6D12D75B7470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A90962-D09E-47E8-B016-7AC277808CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A90962-D09E-47E8-B016-7AC277808CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A90962-D09E-47E8-B016-7AC277808CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A90962-D09E-47E8-B016-7AC277808CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A23F9384-7BB9-4B89-8D19-619EFB731097}
+	EndGlobalSection
+EndGlobal

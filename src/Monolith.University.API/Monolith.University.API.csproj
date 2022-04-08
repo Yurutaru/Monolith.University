@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>8c0f2201-69c7-4fcf-a82a-3ec420cde5aa</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Modules\UpdatersModule\**" />
+	  <Content Remove="Modules\UpdatersModule\**" />
+	  <EmbeddedResource Remove="Modules\UpdatersModule\**" />
+	  <None Remove="Modules\UpdatersModule\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Monolith.University.Core\Monolith.University.Core.csproj" />
+	  <ProjectReference Include="..\Monolith.University.Infrastructure.Jobs\Monolith.University.Infrastructure.Jobs.csproj" />
+	  <ProjectReference Include="..\Monolith.University.Infrastructure.Persistence\Monolith.University.Infrastructure.Persistence.csproj" />
+	</ItemGroup>
+
+</Project>
